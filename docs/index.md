@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Welcome to Documentation for ERPAL Platform
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+We just started this documentation, please give us a moment to fill in some stuff.
 
-## Commands
+## Contribute
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+* This documentation is 
+* It is built with [mkdocs.org](http://mkdocs.org).
+* It is hosted on [readthedocs.org](https://readthedocs.org)
+* Code repository is on [github.com](https://github.com/brightsolutions/ERPAL-Platform-Docs)
+* Please add pullrequests to the GitHub repository if you want to help building these docs.
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
