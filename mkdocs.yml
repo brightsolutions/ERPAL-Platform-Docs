@@ -1,6 +1,6 @@
 site_name: ERPAL Platform Docs
 repo_url: https://github.com/brightsolutions/ERPAL-Platform-Docs
-pakes:
+pages:
 - [index.md, 'Home']
 - [about.md, 'About']
 - [concepts.md, 'Concepts']
