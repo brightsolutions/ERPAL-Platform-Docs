@@ -2,6 +2,8 @@
 
 We just started this documentation, please give us a moment to fill in some stuff.
 
+More info on ERPAL can be found here: [erpal.info](http://erpal.info)
+
 ## Contribute
 
 * This documentation is 
