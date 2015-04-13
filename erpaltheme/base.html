@@ -73,7 +73,9 @@
           {% include "breadcrumbs.html" %}
           <div role="main">
             <div class="section">
-              <h1>{{ current_page.title }}</h1>
+              {% if current_page.title != 'Home' %}
+                <h1>{{ current_page.title }}</h1>
+              {% endif %}
               {{ content }}
             </div>
           </div>
