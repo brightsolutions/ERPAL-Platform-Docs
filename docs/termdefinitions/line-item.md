@@ -1,4 +1,4 @@
-A line item is a piece of information on a Cart/[Quote]()/[Order]()/[Invoice]() (QOI). Each line item is something that is sold to the customer. A line item is created from a product at the moment the product is added to the QOI. A line item inherits the fields from a product, the unit in particular. For the user it seems that he added the product to the QOI but by creating a line item we persist the information of the product at the moment of adding. If a product is changed later it is very important that it must not change the line item in any way. The line items and QOI must support [audit-proof archiving]().
+A line item is a piece of information on a Cart/[Quote](quote.md)/[Order](order.md)/[Invoice](invoice.md) (QOI). Each line item is something that is sold to the customer. A line item is created from a product at the moment the product is added to the QOI. A line item inherits the fields from a product, the unit in particular. For the user it seems that he added the product to the QOI but by creating a line item we persist the information of the product at the moment of adding. If a product is changed later it is very important that it must not change the line item in any way. The line items and QOI must support [audit-proof archiving](audit-proof.md).
 
 There are two possible ways to achieve persisting information.
 
@@ -8,9 +8,9 @@ There are two possible ways to achieve persisting information.
 
 We prefer and implement **method 1** as this is the more common and safer way.
 
-A line item needs to know about it's base price, [tax]() and amount to calculate it's total price. But also discounts on products need to be able to influence the price. To achieve this a price consists of multiple price components.
+A line item needs to know about it's base price, [tax](taxes.md) and amount to calculate it's total price. But also discounts on products need to be able to influence the price. To achieve this a price consists of multiple price components.
 
-A line item can only be referenced in one QOI but QOIs can have multiple line items. A classic 1:M relation. Since QOIs often need to list all line items it is more performant to have a multi reference field on QOIs. It must be possible to check if a line item is referenced in an invoice to list not billed line items (see [revenue]()).
+A line item can only be referenced in one QOI but QOIs can have multiple line items. A classic 1:M relation. Since QOIs often need to list all line items it is more performant to have a multi reference field on QOIs. It must be possible to check if a line item is referenced in an invoice to list not billed line items (see [revenue](revenue.md)).
 
 An invoice-line-item is created from a payment modality in an order. For each prepaid payment modality (“due with order”) an invoice-line-item is created on order save. For postpaid (“due with delivery”) payment modalities an invoice-line-item is created when the button “deliver” is clicked or a task status is set to “delivered”.
 
@@ -26,10 +26,10 @@ Every line item has a line-item-budget that keeps track of how much has to be an
 Once a delivery (output entity) is created with the correct unit for a line item its amount is added to the line-item-budget to keep track of the total deliveries. If multiple payment modalities exist the delivery will be added to one or more payment-modality-budgets as well. First to the prepaid budgets and then to the postpaid budgets. If, while adding the delivery amount to the budget, the budget reaches 100% the rest of the delivery will be added to the next payment-modality-budget in line. The delivery keeps track of which budgets it is has been added to. If the delivery is changed all concerning payment-modality- and line-item-budgets will be adjusted accordingly.
 
 | Time | Delivery | Line-item-budget | Prepaid-budget | Postpaid-budget |
-|------|---------:|-----------------:|---------------:|----------------:|
-| 0    |        0 |          0 / 100 |         0 / 20 |          0 / 80 |
-| 1    |        5 |          5 / 100 |         5 / 20 |          0 / 80 |
-| 2    |       30 |         35 / 100 |        20 / 20 |         15 / 80 |
-| 3    |      -20 |         15 / 100 |        15 / 20 |          0 / 80 |
-| 4    |       85 |        100 / 100 |        20 / 20 |         80 / 80 |
-| 5    |      -20 |         80 / 100 |        20 / 20 |         60 / 80 |
+|-----:|---------:|-----------------:|---------------:|----------------:|
+|    0 |        0 |          0 / 100 |         0 / 20 |          0 / 80 |
+|    1 |        5 |          5 / 100 |         5 / 20 |          0 / 80 |
+|    2 |       30 |         35 / 100 |        20 / 20 |         15 / 80 |
+|    3 |      -20 |         15 / 100 |        15 / 20 |          0 / 80 |
+|    4 |       85 |        100 / 100 |        20 / 20 |         80 / 80 |
+|    5 |      -20 |         80 / 100 |        20 / 20 |         60 / 80 |

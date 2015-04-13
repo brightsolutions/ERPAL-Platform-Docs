@@ -13,6 +13,10 @@ pages:
 - [termdefinitions/quote.md, 'Termdefinitions', 'Quote']
 - [termdefinitions/order.md, 'Termdefinitions', 'Order']
 - [termdefinitions/invoice.md, 'Termdefinitions', 'Invoice']
+- [termdefinitions/taxes.md, 'Termdefinitions', 'Taxes']
+- [termdefinitions/project.md, 'Termdefinitions', 'Project']
+- [termdefinitions/budgets.md, 'Termdefinitions', 'Budgets']
+- [termdefinitions/audit-proof.md, 'Termdefinitions', 'Audit-proof']
 - [usecases.md, 'Use cases']
 - [about.md, 'About']
 

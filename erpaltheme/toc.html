@@ -20,7 +20,7 @@
       {% endfor %}
 
       {% else %}
-      <li class="toctree-l1 {% if nav_item.active%}current{%endif%}" style="border-top:1px solid #666">
+      <li class="toctree-l1 {% if nav_item.active%}current{%endif%}">
         <a class="{% if nav_item.active%}current{%endif%}" href="{{ nav_item.url }}">{{ nav_item.title }}</a>
         {% if nav_item == current_page %}
           <ul>
@@ -36,4 +36,3 @@
     {% endif %}
   {% endfor %}
 </ul>
-
