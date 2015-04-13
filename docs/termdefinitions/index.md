@@ -1,0 +1,1 @@
+In this chapter all special Terms are defined. When talking about the customer this means a) the customer in an online shop or b) the person adding stuff to a [Quote](quote.md)/[Order](order.md)/[Invoice](invoice.md) (QOI) unless otherwise stated.

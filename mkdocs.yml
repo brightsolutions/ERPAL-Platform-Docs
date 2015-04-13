@@ -1,8 +1,20 @@
 site_name: ERPAL Platform Docs
 repo_url: https://github.com/brightsolutions/ERPAL-Platform-Docs
+site_description: Project documentation for ERPAL Platform
+
 pages:
 - [index.md, 'Home']
-- [termdefinitions.md, 'Termdefinitions']
+- [termdefinitions/index.md, 'Termdefinitions', 'Termdefinitions']
+- [termdefinitions/roles.md, 'Termdefinitions', 'Roles in this document']
+- [termdefinitions/product.md, 'Termdefinitions', 'Product (bundle of entity product)']
+- [termdefinitions/line-item.md, 'Termdefinitions', 'Line item']
+- [termdefinitions/deliveries.md, 'Termdefinitions', 'Deliveries']
+- [termdefinitions/revenue.md, 'Termdefinitions', 'Revenue']
+- [termdefinitions/quote.md, 'Termdefinitions', 'Quote']
+- [termdefinitions/order.md, 'Termdefinitions', 'Order']
+- [termdefinitions/invoice.md, 'Termdefinitions', 'Invoice']
 - [usecases.md, 'Use cases']
 - [about.md, 'About']
-theme: readthedocs
+
+theme: ""
+theme_dir: erpaltheme

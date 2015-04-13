@@ -1,5 +1,3 @@
-# Use cases
-
 1. Buy a (customized) product
     1. Customer adds product in store front
     1. ERPAL user adds product in ERPAL backend
