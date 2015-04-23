@@ -21,6 +21,7 @@ pages:
 - [concepts/audit-proof.md, 'Concepts', 'Audit-proof']
 - [usecases/usecases.md, 'Use cases']
 - [development/development.md, 'Development', 'Development']
+- [development/comments.md, 'Development', 'Comments']
 
 theme: ""
 theme_dir: erpaltheme
