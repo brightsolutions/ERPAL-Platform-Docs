@@ -1,0 +1,11 @@
+nav {
+  &.top-nav {
+    height: $site-header-height;
+    box-shadow: none;
+
+    a.page-title {
+      font-size: 48px;
+      line-height: $site-header-height;
+    }
+  }
+}

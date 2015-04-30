@@ -1,0 +1,20 @@
+<div class="toc-wrapper pinned">
+  {% if repo_url %}
+    <div class="repo">
+      {% if repo_name == 'GitHub' %}
+        <a href="{{ repo_url }}" class="icon icon-github"> Edit on GitHub</a>
+      {% elif repo_name == 'Bitbucket' %}
+        <a href="{{ repo_url }}" class="icon icon-bitbucket"> Edit on BitBucket</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if toc %}
+    <!-- table of content -->
+    <ul class="section table-of-contents">
+      {% for toc_item in toc %}
+        <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

@@ -1,0 +1,18 @@
+.toc-wrapper {
+  position: relative;
+  padding-top: 42px;
+
+  .repo {
+    padding-left: 20px;
+  }
+}
+
+.table-of-contents {
+  li + li {
+    margin-top: 5px;
+  }
+
+  a {
+    height: auto;
+  }
+}

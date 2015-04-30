@@ -2,3 +2,6 @@
 site/
 .idea
 .DS_Store
+.sass-cache
+erpaltheme/node_modules
+css

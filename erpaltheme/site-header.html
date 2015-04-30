@@ -1,0 +1,53 @@
+<!-- page header -->
+<header>
+  <nav class="top-nav">
+    <div class="container">
+      <!-- page title -->
+      <div class="nav-wrapper">
+        <a class="page-title">{{ current_page.title }}</a>
+      </div>
+
+      <!-- mobile nav trigger -->
+      <div class="container">
+        <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full">
+          <i class="mdi-navigation-menu"></i>
+        </a>
+      </div>
+
+      <!-- navigation -->
+      <ul id="nav-mobile" class="side-nav fixed">
+        <!-- logo -->
+        <li class="logo">
+          <a href="{{ homepage_url }}" class="brand-logo">
+            <img src="/images/logo.png" alt="ERPAL logo"/>
+            {{ site_name }}
+          </a>
+        </li>
+        <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <!-- nav-items -->
+            {% for nav_item in nav %}
+            <li {% if nav_item.active%}class="active"{%endif%}>
+              <div class="collapsible-header {% if nav_item.active%}active{%endif%}">
+                {{ nav_item.title }}
+              </div>
+
+              <div class="collapsible-body">
+                <ul>
+                  <!-- sub-items -->
+                  {% for nav_item in nav_item.children %}
+                    <li {% if nav_item.active %}class="active"{% endif %}>
+                      <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+</header>

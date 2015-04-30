@@ -1,0 +1,51 @@
+.content-navigation {
+  margin-top: 40px;
+}
+
+ul.side-nav.fixed {
+  .collapsible-header,
+  .collapsible a {
+    padding-top: $site-nav-vertical-padding;
+    padding-bottom: $site-nav-vertical-padding;
+    height: auto;
+    line-height: initial;
+  }
+
+  .collapsible-header {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .collapsible a {
+  }
+
+  li {
+    line-height: initial;
+
+    &.no-padding:hover {
+      background-color: transparent;
+    }
+
+    &.logo {
+      margin-bottom: 16px;
+      padding-top: 10px;
+      height: $site-header-height;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+
+      &:hover {
+        background-color: inherit;
+      }
+
+      a {
+        position: relative;
+
+        img {
+          display: block;
+          margin: 0 auto;
+          border: none;
+        }
+      }
+    }
+  }
+}

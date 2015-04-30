@@ -18,6 +18,13 @@ $( document ).ready(function() {
     hljs.initHighlightingOnLoad();
 
     $('table').addClass('docutils');
+
+  // material
+  $('.dropdown-button').dropdown();
+  $('.button-collapse').sideNav();
+  $('h2, h3, h4, .scrollspy').scrollSpy();
+  $('.toc-wrapper').width($('.toc').width())
+    .pushpin({ top:0 });
 });
 
 window.SphinxRtdTheme = (function (jquery) {

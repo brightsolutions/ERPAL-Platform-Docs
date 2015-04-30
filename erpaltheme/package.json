@@ -1,0 +1,22 @@
+{
+  "name": "erpaltheme",
+  "title": "mkdocs erpal theme",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-combine-mq": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sassdoc": "^1.0.0",
+    "grunt-scss-lint": "^0.3.3",
+    "grunt-shell": "~0.3.1",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "~0.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
