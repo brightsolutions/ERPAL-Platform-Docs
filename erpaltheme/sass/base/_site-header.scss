@@ -1,6 +1,7 @@
 nav {
   &.top-nav {
     height: $site-header-height;
+    background-color: $color-main;
     box-shadow: none;
 
     a.page-title {

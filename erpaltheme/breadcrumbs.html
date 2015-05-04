@@ -1,13 +1,18 @@
-<div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="{{ homepage_url }}">Docs</a> &raquo;</li>
-    {% for doc in current_page.ancestors %}
-      {% if doc.link %}
-        <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo;</li>
-      {% else %}
-        <li>{{ doc.title }} &raquo;</li>
-      {% endif %}
-    {% endfor %}
-    {% if current_page %}<li>{{ current_page.title }}</li>{% endif %}
-  </ul>
-</div>
+<ul class="breadcrumbs" aria-label="breadcrumbs navigation">
+  <li>
+    <a href="{{ homepage_url }}">
+      <i class="mdi-action-home"></i>
+      Docs
+    </a>
+  </li>
+  {% for doc in current_page.ancestors %}
+    {% if doc.link %}
+      <li><a href="{{ doc.link|e }}">{{ doc.title }}</a></li>
+    {% else %}
+      <li>{{ doc.title }}</li>
+    {% endif %}
+  {% endfor %}
+  {% if current_page %}
+    <li>{{ current_page.title }}</li>
+  {% endif %}
+</ul>

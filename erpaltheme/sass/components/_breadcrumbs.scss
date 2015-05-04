@@ -1,0 +1,14 @@
+.breadcrumbs {
+  margin: 20px 0 40px;
+  font-size: 0;
+
+  li {
+    display: inline-block;
+    font-size: 13px;
+
+    + li:before {
+      margin: 0 6px;
+      content: '\00BB';
+    }
+  }
+}

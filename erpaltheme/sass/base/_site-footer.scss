@@ -1,5 +1,29 @@
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: $color-main;
+
+  > .container {
+    padding-bottom: 20px;
+  }
+
+  ul,
+  p {
+    margin-top: 0;
+  }
+
+  a {
+    border-bottom: 1px dotted #fff;
+    color: rgba(#fff, .8);
+
+    &:hover {
+      border-bottom-style: solid;
+      color: #fff;
+    }
+
+    &.btn {
+      border-bottom-width: 0;
+      color: #fff;
+    }
+  }
 }

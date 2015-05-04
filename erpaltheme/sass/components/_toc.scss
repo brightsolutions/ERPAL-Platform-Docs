@@ -1,6 +1,6 @@
 .toc-wrapper {
   position: relative;
-  padding-top: 42px;
+  padding-top: 80px;
 
   .repo {
     padding-left: 20px;
@@ -14,5 +14,9 @@
 
   a {
     height: auto;
+
+    &.active {
+      border-left-color: $color-main;
+    }
   }
 }

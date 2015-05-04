@@ -1,0 +1,7 @@
+a {
+  color: $color-link;
+
+  &[href]:hover {
+    color: $color-link-hover;
+  }
+}

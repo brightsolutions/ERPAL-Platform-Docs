@@ -1,0 +1,68 @@
+$headlines: (
+  h2: (
+    size: 2.827em
+  ),
+  h3: (
+    size: 1.999em
+  ),
+  h4: (
+    size: 1.414em
+  ),
+  h5: (
+    size: 1em
+  )
+);
+
+.site-content {
+  // basic typo
+  h2, h3, h4 {
+    margin: 1.6em 0 0.5em;
+    line-height: 1.2;
+  }
+
+  @each $hl, $data in $headlines {
+    #{$hl} {
+      font-size: map_get($data, size);
+    }
+  }
+
+  p {
+    margin-bottom: 1.3em;
+  }
+
+  // lists
+  ul {
+    padding-left: 40px;
+
+    li {
+      list-style-type: disc;
+    }
+  }
+
+  // tables
+  td,
+  th {
+    @each $key in (left, center, right) {
+      &[align="#{$key}"] {
+        text-align: $key;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(even) {
+        background-color: $color-table-row-alt;
+      }
+
+      &:hover {
+        background-color: $color-table-row-hover;
+      }
+    }
+  }
+
+  // general (not-element related)
+  > :first-child {
+    margin-top: 0;
+  }
+}

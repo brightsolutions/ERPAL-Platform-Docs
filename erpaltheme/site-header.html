@@ -28,7 +28,7 @@
             <!-- nav-items -->
             {% for nav_item in nav %}
             <li {% if nav_item.active%}class="active"{%endif%}>
-              <div class="collapsible-header {% if nav_item.active%}active{%endif%}">
+              <div class="collapsible-header waves-effect waves-light {% if nav_item.active%}active{%endif%}">
                 {{ nav_item.title }}
               </div>
 

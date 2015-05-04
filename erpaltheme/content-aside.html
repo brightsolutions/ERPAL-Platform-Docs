@@ -1,13 +1,10 @@
 <div class="toc-wrapper pinned">
-  {% if repo_url %}
-    <div class="repo">
-      {% if repo_name == 'GitHub' %}
-        <a href="{{ repo_url }}" class="icon icon-github"> Edit on GitHub</a>
-      {% elif repo_name == 'Bitbucket' %}
-        <a href="{{ repo_url }}" class="icon icon-bitbucket"> Edit on BitBucket</a>
-      {% endif %}
-    </div>
-  {% endif %}
+  <div class="repo">
+    <a href="{{ repo_url }}">
+      <i class="mdi-editor-mode-edit"></i>
+      Improve this doc
+    </a>
+  </div>
 
   {% if toc %}
     <!-- table of content -->
