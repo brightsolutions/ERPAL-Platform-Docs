@@ -11,7 +11,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000034}}
   .btn:hover {
     background-color: #006487;
-    color: #fff; }
+    color: #fff !important; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\000031}}
 code.hljs {
