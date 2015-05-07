@@ -1,8 +1,8 @@
 .btn {
-  background-color: $color-link;
+  background-color: $color-button-background;
 
   &:hover {
-    background-color: $color-link-hover;
-    color: #fff !important;
+    background-color: $color-button-background-hover;
+    color: $color-button-copy !important;
   }
 }

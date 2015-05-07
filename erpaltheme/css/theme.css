@@ -7,10 +7,10 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000031}}
 .btn {
-  background-color: #009fb7; }
+  background-color: #ffa63d; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000034}}
   .btn:hover {
-    background-color: #006487;
+    background-color: #ff8f0a;
     color: #fff !important; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\000031}}
@@ -146,7 +146,7 @@ a {
   color: #009fb7; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_typography\.scss}line{font-family:\000034}}
   a[href]:hover {
-    color: #006487; }
+    color: #007384; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_brand-logo\.scss}line{font-family:\000031}}
 .brand-logo img {

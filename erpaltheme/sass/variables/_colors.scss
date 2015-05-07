@@ -20,7 +20,15 @@ $color-border: $color-silver-chalice;
 $color-border-hover: $color-deep-sea;
 
 $color-link: $color-bondi-blue;
-$color-link-hover: $color-orient;
+// $color-link: $color-deep-sea;
+$color-link-hover: darken($color-link, 10);
+$color-button-background: $color-yellow-orange;
+$color-button-background-hover: darken($color-button-background, 10);
+$color-button-copy: #fff;
 
 $color-table-row-alt: $color-gallery;
 $color-table-row-hover: $color-mercury;
+
+$color-header-background: $color-main;
+// $color-header-background: $color-dove-gray;
+$color-footer-background: $color-header-background;
