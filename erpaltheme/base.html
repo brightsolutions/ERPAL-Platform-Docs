@@ -64,6 +64,9 @@
 
 <main>
   <div class="container">
+    {% if current_page.title == 'Home' %}
+      {{ content }}
+    {% else %}
     <div class="row">
       <!-- main content -->
       <div class="col s12 m9 l9">
@@ -81,6 +84,7 @@
         {% include "content-aside.html" %}
       </div>
     </div>
+    {% endif %}
   </div>
 </main>
 
