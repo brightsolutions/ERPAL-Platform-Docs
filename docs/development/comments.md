@@ -12,7 +12,7 @@ The final result will look something like this:
 
 1. go to: Configuration » Media » Image styles » Add style
 1. name the style something like "Comments Avatar"
-1. add effekt **Scale and crop**
+1. add effect **Scale and crop**
 1. set width and height to **60px**
 
 
