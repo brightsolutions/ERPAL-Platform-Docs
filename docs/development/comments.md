@@ -50,16 +50,23 @@ note: don't forget the lable-config
 
 
 ## 5. hide subject and author fields
-finally: adding the following code to the **template.php** should do the trick:
+finally: adding the following code to a [custom modules](https://www.drupal.org/node/1074362) **my_module.module** should do the trick:
 
-    function erpal_theme_form_comment_form_alter(&$form, &$form_state) {
-      // remove subject
+    <?php
+    /**
+     * Implements hook_form_comment_form_alter().
+     *
+     * Removing unneeded fields from comment form.
+     */
+    function my_module_form_comment_form_alter(&$form, &$form_state) {
+      // Remove subject.
       unset($form['subject']);
-    
-      // remove author field for users, when not editing
+
+      // Remove author field for users, when not editing.
       if ($form['is_anonymous']['#value'] == false && arg(2) != 'edit') {
         $form['author']['#access'] = false;
       }
-    
+
       return $form;
     }
+
