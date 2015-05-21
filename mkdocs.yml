@@ -22,6 +22,7 @@ pages:
 - [usecases/usecases.md, 'Use cases']
 - [development/development.md, 'Development', 'Development']
 - [development/comments.md, 'Development', 'Comments']
+- [development/subtheme.md, 'Development', 'Creating a sub-theme']
 
 theme: ""
 theme_dir: erpaltheme
