@@ -6,8 +6,9 @@ insight on the subject.
 That said, we will not go too much into the details but give you just the basics to let you hit the ground running.
 
 ## Getting started
-basically there are two easy options to create the subtheme:
+basically there are three easy options to create the subtheme:
 
+1. use [drush](https://github.com/drush-ops/drush) with `$ drush omega-wizard` and select `ERPAL theme` as base theme
 1. duplicate the erpal-theme, refactor the themename and set the base-theme dependency (see step #2.1)
 1. create the whole shebang by hand
 

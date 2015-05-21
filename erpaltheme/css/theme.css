@@ -14,10 +14,21 @@ body {
     color: #fff !important; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\000031}}
-code.hljs {
-  padding: 7px 12px;
-  border: 1px solid rgba(51, 51, 51, 0.12);
-  background: #f5f2f0; }
+code {
+  padding: 1px 3px;
+  border: 1px solid #e1e1e8;
+  border-radius: 3px;
+  background-color: #f7f7f9;
+  color: #cc2255;
+  white-space: normal;
+  font-size: 0.85rem;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  line-height: 0.85rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\0000314}}
+  code.hljs {
+    padding: 7px 12px;
+    white-space: pre;
+    line-height: 1.3rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_container\.scss}line{font-family:\000031}}
 .container {

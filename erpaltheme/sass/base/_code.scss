@@ -1,5 +1,19 @@
-code.hljs {
-  padding: 7px 12px;
-  border: 1px solid rgba(51, 51, 51, 0.12);
-  background: #f5f2f0;
+code {
+  $size: .85rem;
+
+  padding: 1px 3px;
+  border: 1px solid $color-code-border;
+  border-radius: 3px;
+  background-color: $color-code-background;
+  color: $color-inline-code;
+  white-space: normal;
+  font-size: $size;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  line-height: $size;
+
+  &.hljs {
+    padding: 7px 12px;
+    white-space: pre;
+    line-height: 1.3rem;
+  }
 }
