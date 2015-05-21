@@ -11,3 +11,10 @@ To install ERPAL Platform visit the Drupal project page: [www.drupal.org/project
 * Please add pullrequests to the GitHub repository if you want to help building these docs.
 
 
+### Adding youtube videos
+to add youtube-videos to a documentation-page please insert them as an iframe with the `youtube-iframe` class. 
+this way the width is flexible and the videos should be shown properly.
+
+for example:
+
+    <iframe class="youtube-iframe" src="http://www.youtube.com/embed/A5rx_UoQXf8"></iframe>
