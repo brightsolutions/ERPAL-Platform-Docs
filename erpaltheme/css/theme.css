@@ -30,6 +30,10 @@ code.hljs {
     .container {
       width: 85%; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_iframe\.scss}line{font-family:\000031}}
+iframe {
+  border: none; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img,
 media {
@@ -45,6 +49,22 @@ a img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000310}}
   a img:hover {
     border-color: #00895d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000315}}
+.youtube-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000322}}
+  .youtube-iframe-wrap {
+    border: 1px solid #b2b2b2;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\000031}}
 footer.page-footer {

@@ -5,7 +5,6 @@ insight on the subject.
 
 That said, we will not go too much into the details but give you just the basics to let you hit the ground running.
 
-
 ## Getting started
 basically there are two easy options to create the subtheme:
 
