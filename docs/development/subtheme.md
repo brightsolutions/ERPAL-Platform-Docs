@@ -56,6 +56,7 @@ The .info-file is also the place where you can add or exclude stylesheets and ja
 Now your awesome new theme should be first in the list of "enabled themes" and set as default. Cheers!
 
 
+<!-- uncomment when theme-info page is finished
 ## Go pro!
 (This is where the magic happens)
 
@@ -65,3 +66,4 @@ awesomeness aka integration of drush, grunt, bower, sass & compass (with bundler
 
 So make sure to read on [about the ERPAL theme]() to get deeper knowledge on that subject and our conception on the 
 theme.
+-->
