@@ -24,4 +24,8 @@ $(document).ready(function () {
 
   $(window).on('resize', setTocWidth)
     .trigger('resize');
+
+
+  // iframe wrapper
+  $('.youtube-iframe').wrap('<div class="youtube-iframe-wrap"></div>');
 });
