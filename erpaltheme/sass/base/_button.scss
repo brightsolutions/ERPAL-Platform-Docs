@@ -1,6 +1,10 @@
 .btn {
   background-color: $color-button-background;
 
+  @include breakpoint(max-width $break-mobile) {
+    padding: 0 1.2em;
+  }
+
   &:hover {
     background-color: $color-button-background-hover;
     color: $color-button-copy !important;

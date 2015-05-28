@@ -1,4 +1,7 @@
 $headlines: (
+  h1: (
+    size: 2.827em
+  ),
   h2: (
     size: 2.827em
   ),
@@ -13,18 +16,19 @@ $headlines: (
   )
 );
 
-.site-content {
-  // basic typo
-  h2, h3, h4 {
-    margin: 1.6em 0 0.5em;
-    line-height: 1.2;
-  }
+// basic typo
+h1, h2, h3, h4 {
+  margin: 1.6em 0 0.5em;
+  line-height: 1.2;
+}
 
-  @each $hl, $data in $headlines {
-    #{$hl} {
-      font-size: map_get($data, size);
-    }
+@each $hl, $data in $headlines {
+  #{$hl} {
+    font-size: map_get($data, size);
   }
+}
+
+.site-content {
 
   p {
     margin-bottom: 1.3em;

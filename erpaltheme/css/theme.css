@@ -1,19 +1,23 @@
 /* No files to import found in abstractions/**\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_body\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_body\.scss}line{font-family:\000031}}
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000031}}
 .btn {
   background-color: #ffa63d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000034}}
+  @media (max-width: 993px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000031}}
+    .btn {
+      padding: 0 1.2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_button\.scss}line{font-family:\000038}}
   .btn:hover {
     background-color: #ff8f0a;
     color: #fff !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\000031}}
 code {
   padding: 1px 3px;
   border: 1px solid #e1e1e8;
@@ -24,51 +28,51 @@ code {
   font-size: 0.85rem;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   line-height: 0.85rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_code\.scss}line{font-family:\0000314}}
   code.hljs {
     padding: 7px 12px;
     white-space: pre;
     line-height: 1.3rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_container\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_container\.scss}line{font-family:\000031}}
 .container {
   margin: 0 auto;
   padding: 0 1.5rem;
   max-width: 1280px;
   width: 90%; }
   @media (min-width: 601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_container\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_container\.scss}line{font-family:\000031}}
     .container {
       width: 85%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_iframe\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_iframe\.scss}line{font-family:\000031}}
 iframe {
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img,
 media {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\000036}}
 a img {
   -moz-transition: border-color 0.2s;
   -o-transition: border-color 0.2s;
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
   border: 1px solid #b2b2b2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000310}}
   a img:hover {
     border-color: #00895d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000315}}
 .youtube-iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_media\.scss}line{font-family:\0000322}}
   .youtube-iframe-wrap {
     border: 1px solid #b2b2b2;
     position: relative;
@@ -77,169 +81,215 @@ a img {
     padding-top: 25px;
     height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\000031}}
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
   background-color: #00895d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\000036}}
   footer.page-footer > .container {
     padding-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000310}}
   footer.page-footer ul,
   footer.page-footer p {
     margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000315}}
   footer.page-footer a {
     border-bottom: 1px dotted #fff;
     color: rgba(255, 255, 255, 0.8); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000319}}
     footer.page-footer a:hover {
       border-bottom-style: solid;
       color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-footer\.scss}line{font-family:\0000324}}
     footer.page-footer a.btn {
       border-bottom-width: 0;
       color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\000032}}
 nav.top-nav {
-  height: 122px;
   background-color: #00895d;
-  box-shadow: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\000037}}
+  box-shadow: none;
+  height: auto; }
+  @media (min-width: 993px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\000032}}
+    nav.top-nav {
+      height: 122px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000311}}
+  nav.top-nav .nav-wrapper {
+    line-height: 1.5em; }
+    @media (min-width: 993px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000311}}
+      nav.top-nav .nav-wrapper {
+        line-height: 55px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000319}}
   nav.top-nav a.page-title {
-    font-size: 48px;
-    line-height: 122px; }
+    font-size: 28px;
+    line-height: 1.5em; }
+    @media (min-width: 993px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000319}}
+      nav.top-nav a.page-title {
+        font-size: 48px;
+        line-height: 122px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000329}}
+  nav.top-nav .container {
+    padding-top: 44px;
+    padding-bottom: 12px; }
+    @media (min-width: 993px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000329}}
+      nav.top-nav .container {
+        padding-top: 0;
+        padding-bottom: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000341}}
+  nav.top-nav .button-collapse {
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000347}}
+    nav.top-nav .button-collapse i {
+      font-size: 2em;
+      line-height: inherit;
+      height: inherit; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\000031}}
 .content-navigation {
   margin: 80px 0 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\000036}}
 ul.side-nav.fixed a {
   height: auto;
   line-height: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000311}}
 ul.side-nav.fixed .collapsible-header,
 ul.side-nav.fixed .collapsible a {
   padding-top: 12px;
   padding-bottom: 12px;
   height: auto;
   line-height: initial; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000319}}
 ul.side-nav.fixed .collapsible-header {
   color: #000;
   font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000324}}
 ul.side-nav.fixed li {
   line-height: initial; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000327}}
   ul.side-nav.fixed li.no-padding:hover {
     background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000331}}
   ul.side-nav.fixed li.logo {
     margin-bottom: 16px;
     padding-top: 10px;
     height: 122px;
     border-bottom: 1px solid #ddd;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000338}}
     ul.side-nav.fixed li.logo:hover {
       background-color: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000342}}
     ul.side-nav.fixed li.logo a {
       position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000345}}
       ul.side-nav.fixed li.logo a img {
         display: block;
         margin: 0 auto;
         border: none;
         margin-bottom: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000356}}
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
   background-color: #00895d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site\.scss}line{font-family:\000031}}
-header,
-main,
-footer {
-  padding-left: 240px; }
+@media (min-width: 993px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site\.scss}line{font-family:\000031}}
+  header,
+  main,
+  footer {
+    padding-left: 240px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_site\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site\.scss}line{font-family:\000039}}
 main {
   flex-grow: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_typography\.scss}line{font-family:\000031}}
 a {
   color: #009fb7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/base\/_typography\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_typography\.scss}line{font-family:\000034}}
   a[href]:hover {
     color: #007384; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_brand-logo\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_brand-logo\.scss}line{font-family:\000031}}
 .brand-logo img {
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000031}}
 .breadcrumbs {
   margin: 20px 0 40px;
   font-size: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000035}}
   .breadcrumbs li {
     display: inline-block;
     font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000039}}
     .breadcrumbs li + li:before {
       margin: 0 6px;
       content: '\00BB'; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000318}}
-.site-content h2, .site-content h3, .site-content h4 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000320}}
+h1, h2, h3, h4 {
   margin: 1.6em 0 0.5em;
   line-height: 1.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000324}}
-.site-content h2 {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+h1 {
   font-size: 2.827em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000324}}
-.site-content h3 {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+h2 {
+  font-size: 2.827em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+h3 {
   font-size: 1.999em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000324}}
-.site-content h4 {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+h4 {
   font-size: 1.414em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000324}}
-.site-content h5 {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+h5 {
   font-size: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000329}}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000333}}
 .site-content p {
   margin-bottom: 1.3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000338}}
 .site-content ul {
   padding-left: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000341}}
   .site-content ul li {
     list-style-type: disc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000350}}
 .site-content td[align="left"],
 .site-content th[align="left"] {
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000350}}
 .site-content td[align="center"],
 .site-content th[align="center"] {
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000350}}
 .site-content td[align="right"],
 .site-content th[align="right"] {
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000358}}
 .site-content tbody tr:nth-child(even) {
   background-color: #eee; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000362}}
 .site-content tbody tr:hover {
   background-color: #e5e5e5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_content\.scss}line{font-family:\0000369}}
 .site-content > :first-child {
   margin-top: 0; }
 
@@ -249,7 +299,7 @@ This is the GitHub theme for highlight.js
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\000038}}
 .hljs {
   display: block;
   overflow-x: auto;
@@ -257,14 +307,14 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #333;
   -webkit-text-size-adjust: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000316}}
 .hljs-comment,
 .diff .hljs-header,
 .hljs-javadoc {
   color: #998;
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000323}}
 .hljs-keyword,
 .css .rule .hljs-keyword,
 .hljs-winutils,
@@ -275,13 +325,13 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #333;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000334}}
 .hljs-number,
 .hljs-hexcolor,
 .ruby .hljs-constant {
   color: #008080; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000340}}
 .hljs-string,
 .hljs-tag .hljs-value,
 .hljs-phpdoc,
@@ -289,19 +339,19 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 .tex .hljs-formula {
   color: #d14; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000348}}
 .hljs-title,
 .hljs-id,
 .scss .hljs-preprocessor {
   color: #900;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000355}}
 .hljs-list .hljs-keyword,
 .hljs-subst {
   font-weight: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000360}}
 .hljs-class .hljs-title,
 .hljs-type,
 .vhdl .hljs-literal,
@@ -309,7 +359,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #458;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000368}}
 .hljs-tag,
 .hljs-tag .hljs-title,
 .hljs-rule .hljs-property,
@@ -317,18 +367,18 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #000080;
   font-weight: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000376}}
 .hljs-attribute,
 .hljs-variable,
 .lisp .hljs-body,
 .hljs-name {
   color: #008080; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000383}}
 .hljs-regexp {
   color: #009926; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000387}}
 .hljs-symbol,
 .ruby .hljs-symbol .hljs-string,
 .lisp .hljs-keyword,
@@ -338,11 +388,11 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 .hljs-prompt {
   color: #990073; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\0000397}}
 .hljs-built_in {
   color: #0086b3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003101}}
 .hljs-preprocessor,
 .hljs-pragma,
 .hljs-pi,
@@ -352,37 +402,37 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #999;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003111}}
 .hljs-deletion {
   background: #fdd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003115}}
 .hljs-addition {
   background: #dfd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003119}}
 .diff .hljs-change {
   background: #0086b3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_highlight\.scss}line{font-family:\00003123}}
 .hljs-chunk {
   color: #aaa; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\000031}}
 .toc-wrapper {
   position: relative;
   padding-top: 80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\000035}}
   .toc-wrapper .repo {
     padding-left: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\0000311}}
 .table-of-contents li + li {
   margin-top: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\0000315}}
 .table-of-contents a {
   height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/components\/_toc\.scss}line{font-family:\0000318}}
   .table-of-contents a.active {
     border-left-color: #00895d; }
 
