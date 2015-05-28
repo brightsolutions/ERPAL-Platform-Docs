@@ -26,22 +26,28 @@
           <ul class="collapsible" data-collapsible="accordion">
             <!-- nav-items -->
             {% for nav_item in nav %}
-            <li {% if nav_item.active%}class="active"{%endif%}>
-              <div class="collapsible-header waves-effect waves-light {% if nav_item.active%}active{%endif%}">
-                {{ nav_item.title }}
-              </div>
+              {% if nav_item.title == 'Home' %}
+                <li class="home {% if nav_item.active %}active{% endif %}">
+                  <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                </li>
+              {% else %}
+                <li {% if nav_item.active %}class="active"{%endif%}>
+                  <div class="collapsible-header waves-effect waves-light {% if nav_item.active%}active{%endif%}">
+                    {{ nav_item.title }}
+                  </div>
 
-              <div class="collapsible-body">
-                <ul>
-                  <!-- sub-items -->
-                  {% for nav_item in nav_item.children %}
-                    <li {% if nav_item.active %}class="active"{% endif %}>
-                      <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </li>
+                  <div class="collapsible-body">
+                    <ul>
+                      <!-- sub-items -->
+                      {% for nav_item in nav_item.children %}
+                        <li {% if nav_item.active %}class="active"{% endif %}>
+                          <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </li>

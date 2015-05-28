@@ -28,6 +28,10 @@ ul.side-nav.fixed {
       background-color: transparent;
     }
 
+    &.home > a {
+      margin: 0 1rem;
+    }
+
     &.logo {
       margin-bottom: 16px;
       padding-top: 10px;

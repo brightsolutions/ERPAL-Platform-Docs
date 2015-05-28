@@ -178,26 +178,29 @@ ul.side-nav.fixed li {
   ul.side-nav.fixed li.no-padding:hover {
     background-color: transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000331}}
+  ul.side-nav.fixed li.home > a {
+    margin: 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000335}}
   ul.side-nav.fixed li.logo {
     margin-bottom: 16px;
     padding-top: 10px;
     height: 122px;
     border-bottom: 1px solid #ddd;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000342}}
     ul.side-nav.fixed li.logo:hover {
       background-color: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000346}}
     ul.side-nav.fixed li.logo a {
       position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000349}}
       ul.side-nav.fixed li.logo a img {
         display: block;
         margin: 0 auto;
         border: none;
         margin-bottom: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\0000360}}
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
   background-color: #00895d; }
