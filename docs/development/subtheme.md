@@ -17,8 +17,7 @@ steps when refactoring the theme-name.
 
 
 ## 1. Create a new theme folder
-locate the `sites/all/themes/` folder inside you erpal installation (the themes folder in the root would also do 
-fine), and create a new folder for your sub-theme.
+Locate the `sites/all/themes/` folder inside your ERPAL installation and create a new folder for your sub-theme.
 
 Please be aware, that the folder **must start with an alphabetical character and only contain lowercase letters, 
 numbers and underscores** (e.g. `my_awesome_subtheme`).
@@ -34,7 +33,7 @@ you named your theme). It is important that the file-name resembles the folder-n
 
 This is what the basic content should look like:
 
-    name = my_awesome_subtheme
+    name = My awesome subtheme
     description = This is a sub-theme of ERPAL Theme
     core = 7.x
     base theme = erpal_theme
@@ -47,6 +46,9 @@ The .info-file is also the place where you can add or exclude stylesheets and ja
 ## 3. Clear cache
 [Configuration » Development » Performance » "Clear all caches"](https://www.drupal.org/documentation/clearing-rebuilding-cache), you know the deal, right?
 
+Or use 
+
+    drush cc all
 
 ## 4. Enable your sub-theme
 
@@ -56,6 +58,7 @@ The .info-file is also the place where you can add or exclude stylesheets and ja
 
 Now your awesome new theme should be first in the list of "enabled themes" and set as default. Cheers!
 
+You can now start adding custom CSS and JavaScript.
 
 <!-- uncomment when theme-info page is finished
 ## Go pro!
