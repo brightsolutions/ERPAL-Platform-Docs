@@ -26,7 +26,7 @@
           <ul class="collapsible" data-collapsible="accordion">
             <!-- nav-items -->
             {% for nav_item in nav %}
-              {% if nav_item.title == 'Home' %}
+              {% if nav_item.is_homepage %}
                 <li class="home {% if nav_item.active %}active{% endif %}">
                   <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
                 </li>

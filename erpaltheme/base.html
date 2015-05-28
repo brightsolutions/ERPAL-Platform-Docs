@@ -64,7 +64,7 @@
 
 <main>
   <div class="container">
-    {% if current_page.title == 'Home' %}
+    {% if current_page.is_homepage %}
       {{ content }}
     {% else %}
     <div class="row">
