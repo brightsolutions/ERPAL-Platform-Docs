@@ -1,0 +1,36 @@
+## Foreword
+
+All development happens on drupal.org.
+
+That said, let us show you an easy way to get up and running (especially if you are not so experienced with git).
+
+
+## Create a patch
+The main idea is that you [create patches](https://www.drupal.org/node/707484) for the specific module you want to contribute to. These patches can then be uploaded to drupal.org's issue queues for the modules. This way you only need to clone the modules you want to work on.
+
+
+## An easy workflow
+(for non-core developers)
+
+1. Download the latest dev release from [ERPAL Platform on drupal.org](https://www.drupal.org/project/erpal_platform)
+
+1. Unzip and install it.
+
+1. Now decide if you want to improve an existing module or want to create a new one.
+    1. If you want to work on an existing one decide which Module you want to work on.
+        1. You will find all modules that are included by default in `/profiles/erpal_platform/modules`.
+
+            If you want to edit a module in `/profile/*` you need to contribute to ERPAL platform, if you want to edit a module in `/erpal/*` you can separately checkout and work on this module
+
+        1. You then need to delete the module and clone the single module from drupal.org into `/sites/all/modules/custom`.
+
+            You might need "drush rr" after moving the location of a module.
+
+        1. When you have changes you can create patches and contribute them in the issue queue of the corresponding
+        module
+
+    1. If it is completely new funktionality for example "sychronizing two erpals" or "controling a coffee machine" then you could just create a new project on Drupal.org and clone this modules folder into `/sites/all/modules/custom` and work on it and push and pull normally.
+
+When you are not sure how and what is the best, please add an issue on drupal.org and we can suggest how to do it on that specific task.
+
+Please open a separate issue for each task/feature you want to implement.

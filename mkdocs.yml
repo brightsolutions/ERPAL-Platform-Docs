@@ -7,6 +7,7 @@ pages:
 - [introduction/about_erpal.md, 'Introduction', 'About ERPAL']
 - [introduction/about_docs.md, 'Introduction', 'About this documentation']
 - [introduction/roles.md, 'Introduction', 'Roles in this documentation']
+- [introduction/erpal_contrib.mb, 'Introduction', 'Contributing to ERPAL Platform']
 #- [concepts/index.md, 'Concepts', 'Termdefinitions']
 - [concepts/product.md, 'Concepts', 'Product (bundle of entity product)']
 - [concepts/line-item.md, 'Concepts', 'Line item']
