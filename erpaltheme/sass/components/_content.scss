@@ -1,6 +1,7 @@
 $headlines: (
   h1: (
-    size: 2.827em
+    size: 2.827em,
+    margin-top: 85px
   ),
   h2: (
     size: 2.827em
@@ -29,7 +30,6 @@ h1, h2, h3, h4 {
 }
 
 .site-content {
-
   p {
     margin-bottom: 1.3em;
   }
@@ -65,8 +65,12 @@ h1, h2, h3, h4 {
     }
   }
 
+  h1 {
+    margin-top: map_get(map_get($headlines, h1), margin-top);
+  }
+
   // general (not-element related)
-  > :first-child {
+  .breadcrumbs & > :first-child {
     margin-top: 0;
   }
 }
