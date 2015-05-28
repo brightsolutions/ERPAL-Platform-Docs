@@ -1,12 +1,54 @@
 nav {
   &.top-nav {
-    height: $site-header-height;
     background-color: $color-header-background;
     box-shadow: none;
+    height: auto;
+
+    @include breakpoint($break-mobile) {
+      height: $site-header-height;
+    }
+
+    .nav-wrapper {
+      line-height: $line-height-default;
+
+      @include breakpoint($break-mobile) {
+        line-height: $site-header-line-height;
+      }
+    }
 
     a.page-title {
-      font-size: 48px;
-      line-height: $site-header-height;
+      font-size: 28px;
+      line-height: $line-height-default;
+
+      @include breakpoint($break-mobile) {
+        font-size: 48px;
+        line-height: $site-header-height;
+      }
+    }
+
+    .container {
+      padding-top: $touch-min-size;
+      padding-bottom: $spacing-default;
+
+
+      @include breakpoint($break-mobile) {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    // mobile-menu-toggle
+    .button-collapse {
+      height: $touch-min-size;
+      width: $touch-min-size;
+      line-height: $touch-min-size;
+      text-align: center;
+
+      i {
+        font-size: 2em;
+        line-height: inherit;
+        height: inherit;
+      }
     }
   }
 }

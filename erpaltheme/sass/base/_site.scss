@@ -1,7 +1,9 @@
 header,
 main,
 footer {
-  padding-left: 240px;
+  @include breakpoint($break-mobile) {
+    padding-left: 240px;
+  }
 }
 
 main {

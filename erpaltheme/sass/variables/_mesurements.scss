@@ -1,2 +1,9 @@
+$touch-min-size: 44px;
+
+$spacing-default: 12px;
+
+$break-mobile: 993px;
+
 $site-header-height: 122px;
-$site-nav-vertical-padding: 12px;
+$site-header-line-height: 55px;
+$site-nav-vertical-padding: $spacing-default;
