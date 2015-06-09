@@ -7,6 +7,7 @@
     :copyright: Copyright 2007-2013 by the Sphinx team, see AUTHORS.
     :license: BSD, see LICENSE for details.
 #}
+{# @TODO fix this :-)
 {%- extends "layout.html" %}
 {% set title = _('Search') %}
 {% set script_files = script_files + ['_static/searchtools.js'] %}
@@ -14,8 +15,10 @@
   <script type="text/javascript">
     jQuery(function() { Search.loadIndex("{{ pathto('searchindex.js', 1) }}"); });
   </script>
+@TODO fix this :-) #}
   {# this is used when loading the search index using $.ajax fails,
      such as on Chrome for documents on localhost #}
+{# @TODO fix this :-)
   <script type="text/javascript" id="searchindexloader"></script>
   {{ super() }}
 {% endblock %}
@@ -48,3 +51,5 @@
   {% endif %}
   </div>
 {% endblock %}
+#}
+
