@@ -27,5 +27,6 @@ pages:
     - 'Development': 'development/development.md'
     - 'Comments': 'development/comments.md'
     - 'Creating a sub-theme': 'development/subtheme.md'
+    - 'How to change a menu icon': 'development/change-menu-icon.md'
 
 theme_dir: erpaltheme
