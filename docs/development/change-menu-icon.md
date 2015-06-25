@@ -1,5 +1,6 @@
 Changing the menu icon is basically an easy thing to do, all you need is an image and a few lines of css.
-For the icon, we suggest to use an 15 by 15px PNG-image, preferable in plain white to match the style.
+For the icon, we suggest to use an 15 by 15px PNG-image with background-transparency, preferable in plain white to 
+match the style.
 
 
 ## The CSS-Selector
@@ -106,7 +107,7 @@ As we use the great [Font Awesome iconset](http://fortawesome.github.io/Font-Awe
  option to just change the glyph-content, to get an icon of your liking.
 
 So let's say you created a new page listing all your freelance-workers and would like to give it the [users-icon](http://fortawesome.github.io/Font-Awesome/icon/users/). Therefore grab the glyph-code and reformat it so that 
-you can user it for the css content-property and add the respective style:
+you can use it for the css content-property and add the respective style (assuming the link title is "Freelancer"):
 
     .pane-menu-erpal-menu a.freelancer:before {
       content: '\xf0c0;';
