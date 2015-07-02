@@ -65,7 +65,8 @@ As for the sub-theme, please see the documentation on [creating a sub-theme](sub
         stylesheets[all][] = css/erpal-menu-icons.css
         
     As you can see we already specified a dependency for a css-file where we can store the new custom styles.
-        
+
+
 1. **create the .module file**
 
     In our example we don't want to add any additional logic to the module, but still need the .module file, 
@@ -80,7 +81,6 @@ As for the sub-theme, please see the documentation on [creating a sub-theme](sub
          */
 
 
-
 1. **add the styles**
     
     Create a folder called "css" and the style-sheet itself, in our case `erpal-menu-icons.css` and add the styles to
@@ -90,13 +90,13 @@ As for the sub-theme, please see the documentation on [creating a sub-theme](sub
 1. **clear cache**
 
     Our best friend - `$ drush cc all` or by navigating to [Configuration » Development » Performance » "Clear all caches"](https://www.drupal.org/documentation/clearing-rebuilding-cache)
-    
-    
+
+
 1. **finally: enable the module**
 
     This can eighter be done by using drush (`$ drush en -y <your-modulename>` in our case
     `$ drush en -y custom_erpal_menu_icons`) or by going to the modules section and enabling it manually.
-    
+
 
 For additional information on how to create a module and what you can do with it please have a look at 
 [creating modules (7.x) on drupal.org](https://www.drupal.org/developing/modules/7).
