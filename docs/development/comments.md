@@ -3,12 +3,12 @@ In this section we want to show how you can easily add comments to any content-t
 For that purpose we already included some styles for a basic comment-setup; all you need to do is some site-building, no biggie.
 
 The final result will look something like this:
-[![pre-styled comments](img/development/comments-result-preview.png)](img/development/comments-result.png)
+[![pre-styled comments](../img/development/comments-result-preview.png)](../img/development/comments-result.png)
 
 
 
 ## 1. create a new image style
-[![new image style](img/development/comments-image-style-preview.png)](img/development/comments-image-style.png)
+[![new image style](../img/development/comments-image-style-preview.png)](../img/development/comments-image-style.png)
 
 1. go to: Configuration » Media » Image styles » Add style
 1. name the style something like "Comments Avatar"
@@ -17,7 +17,7 @@ The final result will look something like this:
 
 
 ## 2. enable comments
-[![enable comments](img/development/comments-enable-preview.png)](img/development/comments-enable.png)
+[![enable comments](../img/development/comments-enable-preview.png)](../img/development/comments-enable.png)
 
 1. go to: Structure » Content types » your-content-type
 1. set **Comment settings** » **Default comment setting for new content** to **Open**
@@ -26,7 +26,7 @@ note: already existing content will not have the comments enabled.
 
 
 ## 3. add comments to the content-type-display
-[![add comments to display](img/development/comments-add-to-content-type-preview.png)](img/development/comments-add-to-content-type.png)
+[![add comments to display](../img/development/comments-add-to-content-type-preview.png)](../img/development/comments-add-to-content-type.png)
 
 1. go to: Structure » Content types » your-content-type » manage display
 1. select the respective display-mode (e.g. _Full content_)
@@ -36,14 +36,14 @@ note: make sure you got Display Suite UI enabled (`$ drush en -y ds_ui`)
 
 
 ## 4. set the display for the comments
-[![sitebuilding 1](img/development/comments-sitebuilding-preview-1.png)](img/development/comments-sitebuilding.png)
+[![sitebuilding 1](../img/development/comments-sitebuilding-preview-1.png)](../img/development/comments-sitebuilding.png)
 
-[![sitebuilding 2](img/development/comments-sitebuilding-preview-2.png)](img/development/comments-sitebuilding.png)
+[![sitebuilding 2](../img/development/comments-sitebuilding-preview-2.png)](../img/development/comments-sitebuilding.png)
 
 1. go to: Structure » Content types » your-content-type » comment display » layout
 1. select the **ERPAL Comments** layout
 1. save
-1. drag the fields to match [the given setup](img/development/comments-sitebuilding.png)
+1. drag the fields to match [the given setup](../img/development/comments-sitebuilding.png)
 1. set the user picture format to **Comments Avatar** (or however you named it in step 1)
 
 note: don't forget the lable-config

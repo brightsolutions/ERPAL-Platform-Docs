@@ -4,4 +4,4 @@ A Tab “deliveries” is added to the order. It shows all line-item-budgets. Ea
  
  An extra page, shows a list that shows everything that needs to be delivered, similar to the revenue line item list. (not BETA)
 
-![Lineitembudgets](img/lineitembudgets_0.png)
+![Lineitembudgets](.//img/lineitembudgets_0.png)
