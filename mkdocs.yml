@@ -29,5 +29,6 @@ pages:
     - 'Creating a sub-theme': 'development/subtheme.md'
     - 'How to change a menu icon': 'development/change-menu-icon.md'
 #    - 'How to enable eu-vat': 'development/enable-euvat.md'
+    - 'How to create a custom product- and line-item-type': 'development/custom-product-lineitem-type.md'
 
 theme_dir: erpaltheme
