@@ -1,12 +1,12 @@
-As some countries, especially in the EU, have different tax-classes for different type of products, we want to show 
-you, how you can enable different tax-classes per product using the [commerce eu-vat module](https://www.drupal.org/project/commerce_eu_vat) (and disabling the currently used commerce_tax module).
+As some countries, especially in the EU, have different tax-classes for different type of products. In this article we 
+want to show you, how you can enable different tax-classes per product using the [commerce eu-vat module](https://www.drupal.org/project/commerce_eu_vat) (and disabling the currently used commerce_tax module).
 
 Here we go.
 
 
 ## 1. Disable commerce_tax
 Out with the old... since we want to use the "commerce_eu_vat" module there is no need for the "commerce_tax" module, 
-that ERPAL platform uses by default, therefore you can disable it, preferably by using drush:
+that ERPAL platform uses by default. therefore you can disable it, preferably by using drush:
  `$ drush dis -y commerce_tax`.
 
 
