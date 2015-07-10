@@ -29,10 +29,10 @@ we want it to. Luckily the right patch is available and applying it is not a big
  
 See the issue details for more information about what the patch does: [https://www.drupal.org/node/2366943](https://www.drupal.org/node/2366943)
 
-Patching may sound a bit scary at first, but it's actually just two steps given you are using git:
+Patching may sound a bit scary at first, but it's actually just two steps:
 
-  1. download the patch-file and put it into the root-directory of your git repository
-  1. apply the patch with this command: `$ git apply -v commerce_vat--rebase-price.patch`
+  1. download the [patch-file](https://www.drupal.org/files/issues/commerce_vat--rebase-price.patch) and put it into the root-directory of the commerce_vat module
+  1. navigate to the commerce_vat folder and apply the patch with this command: `$ patch -p1 < commerce_vat--rebase-price.patch`
   
 For more details on how to apply patches have a look at [https://www.drupal.org/patch/apply](https://www.drupal
 .org/patch/apply) when you are **using git** or [https://www.drupal.org/node/534548](https://www.drupal.org/node/534548) if you want to **apply a patch manually**.
@@ -66,10 +66,14 @@ products".
 
 ### What is a custom product?
 Good question! While creating a quote, order or invoice you can add "custom products", line-items that **do not 
-referenciate** an
+reference** an
 existing product (aka leave the product field blank).
 
 [![edit product](../img/development/enable-euvat-custom-product-preview.png)](../img/development/enable-euvat-custom-product
 .png)
 
-However this is not a recommended practice, but let's just say that there are some use-cases for it.
+### Why is that happening?
+The eu_vat system stores the tax information on the products, not on the line items. So if you don't reference a product, there is no information on which tax rate to apply.
+
+### Any solution to this?
+If you need custom products, it would for example be possible to add an extra field to the product line item to allow entering a tax rate. Then you could add rules that check if the line item does not reference a product. If so, check for and use the tax rate field. 

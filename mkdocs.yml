@@ -28,6 +28,6 @@ pages:
     - 'Comments': 'development/comments.md'
     - 'Creating a sub-theme': 'development/subtheme.md'
     - 'How to change a menu icon': 'development/change-menu-icon.md'
-#    - 'How to enable eu-vat': 'development/enable-euvat.md'
+    - 'How to enable eu-vat': 'development/enable-euvat.md'
 
 theme_dir: erpaltheme
