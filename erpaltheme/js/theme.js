@@ -31,7 +31,7 @@ $(document).ready(function () {
 
 
   // fancybox
-  $('a[href$=".png"]').attr('rel', 'fancybox')
+  $('[href$=".png"], [href$=".jpg"]').attr('rel', 'fancybox')
     .fancybox({
       loop:    false,
       helpers: {
