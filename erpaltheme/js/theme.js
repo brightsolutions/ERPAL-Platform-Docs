@@ -28,4 +28,17 @@ $(document).ready(function () {
 
   // iframe wrapper
   $('.youtube-iframe').wrap('<div class="youtube-iframe-wrap"></div>');
+
+
+  // fancybox
+  $('a[href$=".png"]').attr('rel', 'fancybox')
+    .fancybox({
+      loop:    false,
+      helpers: {
+        thumbs: {
+          width:  100,
+          height: 62
+        }
+      }
+    });
 });
