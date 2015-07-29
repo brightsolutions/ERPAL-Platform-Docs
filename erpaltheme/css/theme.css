@@ -108,49 +108,50 @@ footer.page-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\000032}}
 nav.top-nav {
+  overflow: hidden;
+  height: auto;
   background-color: #00895d;
-  box-shadow: none;
-  height: auto; }
+  box-shadow: none; }
   @media (min-width: 993px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\000032}}
     nav.top-nav {
       height: 122px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000312}}
   nav.top-nav .nav-wrapper {
     line-height: 1.5em; }
     @media (min-width: 993px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000312}}
       nav.top-nav .nav-wrapper {
         line-height: 55px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000320}}
   nav.top-nav a.page-title {
     font-size: 28px;
     line-height: 1.5em; }
     @media (min-width: 993px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000320}}
       nav.top-nav a.page-title {
         font-size: 48px;
         line-height: 122px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000330}}
   nav.top-nav .container {
     padding-top: 44px;
     padding-bottom: 12px; }
     @media (min-width: 993px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000330}}
       nav.top-nav .container {
         padding-top: 0;
         padding-bottom: 0; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000341}}
   nav.top-nav .button-collapse {
-    height: 44px;
     width: 44px;
-    line-height: 44px;
-    text-align: center; }
+    height: 44px;
+    text-align: center;
+    line-height: 44px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-header\.scss}line{font-family:\0000347}}
     nav.top-nav .button-collapse i {
+      height: inherit;
       font-size: 2em;
-      line-height: inherit;
-      height: inherit; }
+      line-height: inherit; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpe\/Webseiten\/erpal\/platform-docs\/erpaltheme\/sass\/base\/_site-navigation\.scss}line{font-family:\000031}}
 .content-navigation {
