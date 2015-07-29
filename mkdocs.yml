@@ -27,8 +27,8 @@ pages:
 #    - 'Development': 'development/development.md'
     - 'Comments': 'development/comments.md'
     - 'Creating a sub-theme': 'development/subtheme.md'
-    - 'How to change a menu icon': 'development/change-menu-icon.md'
-    - 'How to enable eu-vat': 'development/enable-euvat.md'
+    - 'Change a menu icon': 'development/change-menu-icon.md'
+    - 'Enable eu-vat': 'development/enable-euvat.md'
     - 'Custom product- and line-item-types': 'development/custom-product-lineitem-type.md'
 
 theme_dir: erpaltheme
