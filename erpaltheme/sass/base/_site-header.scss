@@ -1,8 +1,9 @@
 nav {
   &.top-nav {
+    overflow: hidden;
+    height: auto;
     background-color: $color-header-background;
     box-shadow: none;
-    height: auto;
 
     @include breakpoint($break-mobile) {
       height: $site-header-height;
@@ -30,7 +31,6 @@ nav {
       padding-top: $touch-min-size;
       padding-bottom: $spacing-default;
 
-
       @include breakpoint($break-mobile) {
         padding-top: 0;
         padding-bottom: 0;
@@ -39,15 +39,15 @@ nav {
 
     // mobile-menu-toggle
     .button-collapse {
-      height: $touch-min-size;
       width: $touch-min-size;
-      line-height: $touch-min-size;
+      height: $touch-min-size;
       text-align: center;
+      line-height: $touch-min-size;
 
       i {
+        height: inherit;
         font-size: 2em;
         line-height: inherit;
-        height: inherit;
       }
     }
   }
