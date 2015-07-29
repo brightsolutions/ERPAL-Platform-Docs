@@ -29,5 +29,7 @@ pages:
     - 'Creating a sub-theme': 'development/subtheme.md'
     - 'How to change a menu icon': 'development/change-menu-icon.md'
     - 'How to enable eu-vat': 'development/enable-euvat.md'
+- 'Useacases':
+    - 'Create an online-shop': 'usecases/online-shop.md'
 
 theme_dir: erpaltheme
