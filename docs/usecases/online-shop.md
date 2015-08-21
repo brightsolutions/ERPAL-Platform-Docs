@@ -5,8 +5,10 @@ add timeframes info
 ## Video
 <div data-video="A5rx_UoQXf8"></div>
 
-Additional steps required, that are not in the video:
+**Please note** that, due to advancement in development, there are additional steps required, that are not 
+mentioned in the video:
 
+- [enable Dynamic widget for commerce line item use for cart](#preparation)
 - [5.2.1. Set default site template selection rule](#5.2.1-set-default-site-template-selection-rule)
 
 
@@ -22,13 +24,14 @@ Download & Enable:
     - Payment Method Example (commerce_payment_example) [for demo/testing]
     - [ThemeKey](https://www.drupal.org/project/themekey) (themekey)
     - ThemeKey UI (themekey_ui)
+    - **[not in video]** Dynamic widget for commerce line item use for cart (commerce_line_item_widget_cart)
 - Themes
     - [Adaptive Theme](https://www.drupal.org/project/adaptivetheme) (adaptivetheme)
     - [AT Commerce](https://www.drupal.org/project/at_commerce) (at_commerce)
 
 All in one go using drush:
 
-    drush en -y commerce_autosku views_ui commerce_cart erpal_commerce_cart erpal_quote_commerce_cart commerce_payment_example themekey themekey_ui adaptivetheme at_commerce
+    drush en -y commerce_autosku views_ui commerce_cart erpal_commerce_cart erpal_quote_commerce_cart commerce_payment_example themekey themekey_ui commerce_line_item_widget_cart adaptivetheme at_commerce
 
 
 ## 1. Add Product Display
@@ -222,9 +225,6 @@ All in one go using drush:
 
 1. Go to: Store » Configuration » (/admin/commerce/config/checkout)
 1. Configure "Completion message" and adjust the message
-    
-    
-### 6 NEW (not in video)
 
 
 ## Summary
