@@ -108,7 +108,8 @@
       $('.seekto').on('click.video', function (e) {
         e.preventDefault();
         playerSeekTo($(this).text());
-      });
+      })
+        .prepend('<i class="mdi-action-schedule"></i>');
     }
   });
 })(jQuery, hljs, window);

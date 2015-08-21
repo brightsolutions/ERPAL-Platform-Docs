@@ -26,8 +26,8 @@ a img {
 
   &-wrap {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
+    padding-top: 25px; /* 16:9 */
+    padding-bottom: 56.25%;
     height: 0;
   }
 
@@ -38,4 +38,10 @@ a img {
 
 .seekto {
   cursor: pointer;
+
+  i {
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+  }
 }
