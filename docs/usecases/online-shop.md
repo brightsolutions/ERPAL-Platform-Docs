@@ -1,11 +1,15 @@
-~ intro ~
-add timeframes info
+In this demo we want to show you how you can create an onlineshop with [commerce store](https://drupalcommerce.org/) on the frontend and ERPAL platform on the backend, without much effort.
+
+We also prepared some timestamps, so that will help you retrace your steps though the demo. Keep an eye open for them (<a class="seekto">0:04</a>).
+
+Before we start: special thanks to [spleshka](https://www.drupal.org/u/spleshka) for creating the screencast.
 
 
-## Video
+
+## The Video
 <div data-video="A5rx_UoQXf8"></div>
 
-**Please note** that, due to advancement in development, there are additional steps required, that are not 
+**Please note** that, due to advancement in development, there are additional steps required, that are **not** 
 mentioned in the video:
 
 - [enable Dynamic widget for commerce line item use for cart](#preparation)
@@ -13,7 +17,8 @@ mentioned in the video:
 
 
 ## Preparation
-Download & Enable:
+For the online-shop we will need some additional modules that are not shipped with ERPAL plaform, so please download & 
+enable:
 
 - Modules
     - [Commerce AutoSKU](https://www.drupal.org/project/commerce_autosku) (commerce_autosku)
@@ -35,7 +40,7 @@ All in one go using drush:
 
 
 ## 1. Add Product Display
-(<a class="seekto">0:40</a>)
+For the start we will add the a new content type that will be used to create the product that we want to sell (<a class="seekto">0:40</a>).
 
 1. Go to: Structure » Content types » Add content type (/admin/structure/types/add)
 1. Name: 'Office Supplies'
@@ -62,23 +67,24 @@ All in one go using drush:
 
 
 ## 2. Configure Product
-(<a class="seekto">1:53</a>) Store » Products » Product types » Product (/admin/commerce/products/types/product)
+Next up: configure the product to use an automatically generated sku (<a class="seekto">1:53</a>).
 
+1. Go to: Store » Products » Product types » Product (/admin/commerce/products/types/product)
 1. Enable `Automatically Generate SKU`
 1. Set `Pattern` to "[commerce-product:title]" (Products » Title)
 1. Save product type
 
 
 ## 3. Add Products
-(<a class="seekto">2:16</a>) Content » Add content » Office Supplies
-…
+This step is a rather easy one: add some products (<a class="seekto">2:16</a>).
+You can do that on Content » Add content » Office Supplies.
 
 
 ## 4. Create Products-list (view)
-(<a class="seekto">3:10</a>)
+The fourth step, creating a product-list (view and page), is not that complicated but rather complex. So let's do this step by step. (<a class="seekto">3:10</a>)
 
 ### 4.1 Add a new view
-(<a class="seekto">3:27</a>)
+First part: create a view that contains all listed products (<a class="seekto">3:27</a>).
 
 1. Go to: Structure » Views » Add new View (/admin/structure/views/add)
     - View Name: "Shop: Product list"
@@ -101,7 +107,7 @@ All in one go using drush:
 1. Save
 
 ### 4.2 Add a new page
-(<a class="seekto">6:10</a>)
+Second part: adding a new page that will show our just created view (<a class="seekto">6:10</a>).
 
 1. Go to: Structure » Pages » Add custom page (/admin/structure/pages/add)
 1. Basic setup
@@ -123,13 +129,19 @@ All in one go using drush:
 
 
 ## 5. Improvements
-(<a class="seekto">7:11</a>)
+OK, the most important part, showing the products, is done. So let's add all the little things an online-shop needs, 
+like an option to (re-) download the invoices, or a separated theme for the shop and backend (<a class="seekto">7:11</a>).
 
 ### 5.1 Set shop-theme as default
+Let's set a new shop theme so that a (potential) customer will see your favorite funky theme, but keep the ERPAL 
+theme for adinistrative parts.
+
 1. Go to Appearence (/admin/appearance)
 1. Enable AT Commerce theme and set as default
 
 ### 5.2 Set ERPAL theme for administrators
+First here comes a new part: we progressed with our development
+
 1. <a name="5.2.1-set-default-site-template-selection-rule"></a>**[not in the video]** Set default site template selection rule
     1. Go to: Structure » Sites » Edit site template (/admin/structure/pages/site_template)
     1. Open ERPAL default » Selection rules
@@ -147,7 +159,9 @@ All in one go using drush:
         - Set `Theme` to "ERPAL Theme"
 
 ### 5.3 Miscellaneous
-(<a class="seekto">9:15</a>)
+As we still want to be able the access the given dashboard-page will add a new link to the ERPAL menu. Once this is 
+done we will add our shop-logo to the theme and add permissions that users may access the new products, the 
+cart-checkout or download their quotes (<a class="seekto">9:15</a>).
 
 1. Add a link "Dashboard" to ERPAL Menu with path: "home"
 1. Create demo user
@@ -167,7 +181,8 @@ All in one go using drush:
         - `View own orders of any type` for authenticated user
         
 ### 5.4 Create a quotes, orders and invoices page
-(<a class="seekto">13:54</a>)
+Next one is a bit more complicated but still easy to retrace: we will create a new view that will give a logged-in 
+user the chance to view his/her quotes, orders and invoices (<a class="seekto">13:54</a>).
 
 1. Add new view
     1. Go to: Structure » Views » Add new View (/admin/structure/views/add)
@@ -221,10 +236,15 @@ All in one go using drush:
     - Add "My cart" with path: "cart"
     
 ### 5.5 Change checkout completion message
-(<a class="seekto">20:16</a>)
+Finally we want to show you how you can customize the completion message for example by adding a link to the order-page 
+(<a class="seekto">20:16</a>).
 
 1. Go to: Store » Configuration » (/admin/commerce/config/checkout)
 1. Configure "Completion message" and adjust the message
 
 
 ## Summary
+That was quiet the journey but you made it, awesome. That means you are now fit to open up your own online-shop powered by EPRAL platform.
+
+So, we have shown you how to create pages to provide a user access to their orders on the fly as well as customizing 
+important parts of the checkout-process and - of course - the basic shop itself can be created. And all that in just about 20 minutes! Isn't that amazing?
