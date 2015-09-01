@@ -69,6 +69,8 @@ For the start we will add the a new content type that will be used to create the
 ## 2. Configure Product
 Next up: configure the product to use an automatically generated sku (<a class="seekto">1:53</a>).
 
+[![set sku pattern](../img/usecases/shop-sku-pattern-preview.png)](../img/usecases/shop-sku-pattern.png)
+
 1. Go to: Store » Products » Product types » Product (/admin/commerce/products/types/product)
 1. Enable `Automatically Generate SKU`
 1. Set `Pattern` to "[commerce-product:title]" (Products » Title)
@@ -140,7 +142,12 @@ theme for adinistrative parts.
 1. Enable AT Commerce theme and set as default
 
 ### 5.2 Set ERPAL theme for administrators
-First here comes a new part: we progressed with our development
+First here comes a new part: we progressed with our development, thus you would need to go a little detour by 
+adjusting the default site template setup - won't take long. promise.
+
+Then we'll make our beloved ERPAL theme again available for the admins.
+
+[![set default template](../img/usecases/shop-default-theme-preview.png)](../img/usecases/shop-default-theme.png)
 
 1. <a name="5.2.1-set-default-site-template-selection-rule"></a>**[not in the video]** Set default site template selection rule
     1. Go to: Structure » Sites » Edit site template (/admin/structure/pages/site_template)
