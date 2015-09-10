@@ -30,5 +30,7 @@ pages:
     - 'Change a menu icon': 'development/change-menu-icon.md'
     - 'Enable eu-vat': 'development/enable-euvat.md'
     - 'Custom product- and line-item-types': 'development/custom-product-lineitem-type.md'
+- 'Useacases':
+    - 'Create an online-shop': 'usecases/online-shop.md'
 
 theme_dir: erpaltheme
