@@ -1,7 +1,7 @@
 In this demo we want to show you how you can create an onlineshop with [commerce store](https://drupalcommerce.org/) on the frontend and ERPAL platform on the backend, without much effort.
 Please be aware that these are only some steps towards creating a ready-to-go-live online-shop. Creating taxes, or syncing customer profiles to CRM contacts for example are not covered in this tutorial.
 
-We also prepared some timestamps, that will help you retrace your steps though the demo. Keep an eye open for them (<a class="seekto">0:04</a>).
+We also prepared some timestamps, so that you can retrace your steps by skipping through the screenscast. Keep an eye open for them » (<a class="seekto">0:04</a>).
 
 Before we start: special thanks to [spleshka](https://www.drupal.org/u/spleshka) for creating the screencast.
 
@@ -10,8 +10,7 @@ Before we start: special thanks to [spleshka](https://www.drupal.org/u/spleshka)
 ## The Video
 <div data-video="A5rx_UoQXf8"></div>
 
-**Please note** that, due to advancement in development, there are additional steps required, that are **not** 
-mentioned in the video:
+<span style="color:#ca0513">**Please note**</span> that, due to advancement in development, there are additional steps required, that are **not** mentioned in the video:
 
 - [enable Dynamic widget for commerce line item use for cart](#preparation)
 - [5.2.1. Set default site template selection rule](#5.2.1-set-default-site-template-selection-rule)
@@ -30,7 +29,7 @@ enable:
     - Payment Method Example (commerce_payment_example) [for demo/testing]
     - [ThemeKey](https://www.drupal.org/project/themekey) (themekey)
     - ThemeKey UI (themekey_ui)
-    - **[not in video]** Dynamic widget for commerce line item use for cart (commerce_line_item_widget_cart)
+    - <span style="color:#ca0513">**[not in video]**</span> Dynamic widget for commerce line item use for cart (commerce_line_item_widget_cart)
 - Themes
     - [Adaptive Theme](https://www.drupal.org/project/adaptivetheme) (adaptivetheme)
     - [AT Commerce](https://www.drupal.org/project/at_commerce) (at_commerce)
@@ -41,30 +40,30 @@ All in one go using drush:
 
 
 ## 1. Add Product Display
-For the start we will add the a new content type that will be used to create the product that we want to sell (<a class="seekto">0:40</a>).
+For the start we will add the a new content type, that will be used to create the product that we want to sell (<a class="seekto">0:40</a>).
 
 1. Go to: Structure » Content types » Add content type (/admin/structure/types/add)
 1. Name: 'Office Supplies'
 1. Save & add fields
 1. Manage Fields: (<a class="seekto">0:53</a>)
-    - delete: body
-    - add image
-        1. label: "Image"
-        1. machine name (rename to): "field_office_supplies_image"
-        1. field type: `Image`
-        1. save
-        1. save field settings (no changes here)
-        1. check `required field`
-        1. save settings
-    - add product reference
-        1. label: "Product"
-        1. machine name (rename to): "field_office_supplies_product"
-        1. field type: Product reference
-        1. widget: `inline entity form - single value` or `inline entity form - multiple values`
-        1. save
-        1. save field settings (no changes here)
-        1. check `required field`
-        1. save settings
+    - Delete: body
+    - Add image
+        1. Label: "Image"
+        1. Machine name (rename to): "field_office_supplies_image"
+        1. Field type: `Image`
+        1. Save
+        1. Save field settings (no changes here)
+        1. Check `required field`
+        1. Save settings
+    - Add product reference
+        1. Label: "Product"
+        1. Machine name (rename to): "field_office_supplies_product"
+        1. Field type: Product reference
+        1. Widget: `inline entity form - single value` or `inline entity form - multiple values`
+        1. Save
+        1. Save field settings (no changes here)
+        1. Check `required field`
+        1. Save settings
 
 
 ## 2. Configure Product
@@ -84,7 +83,7 @@ You can do that on Content » Add content » Office Supplies.
 
 
 ## 4. Create Products-list (view)
-The fourth step, creating a product-list (view and page), is not that complicated but rather complex. So let's do this step by step. (<a class="seekto">3:10</a>)
+The fourth step: creating a product-list (view and page), is not that complicated but rather complex. So let's do this step by step. (<a class="seekto">3:10</a>)
 
 ### 4.1 Add a new view
 First part: create a view that contains all listed products (<a class="seekto">3:27</a>).
@@ -92,7 +91,7 @@ First part: create a view that contains all listed products (<a class="seekto">3
 1. Go to: Structure » Views » Add new View (/admin/structure/views/add)
     - View Name: "Shop: Product list"
     - Show `content` of type `Office Supplies` sorted by `newest first`
-    - uncheck `create a page`
+    - Uncheck `create a page`
 1. Continue & edit
 1. Config (<a class="seekto">3:47</a>)
     - Format: table
@@ -150,7 +149,7 @@ Then we'll make our beloved ERPAL theme again available for the admins.
 
 [![set default template](../img/usecases/shop-default-theme-preview.png)](../img/usecases/shop-default-theme.png)
 
-1. <a name="5.2.1-set-default-site-template-selection-rule"></a>**[not in the video]** Set default site template selection rule
+1. <a name="5.2.1-set-default-site-template-selection-rule"></a><span style="color:#ca0513">**[not in the video]**</span> Set default site template selection rule
     1. Go to: Structure » Sites » Edit site template (/admin/structure/pages/site_template)
     1. Open ERPAL default » Selection rules
     1. Add "Current theme"
@@ -244,8 +243,7 @@ user the chance to view his/her quotes, orders and invoices (<a class="seekto">1
     - Add "My cart" with path: "cart"
     
 ### 5.5 Change checkout completion message
-Finally we want to show you how you can customize the completion message for example by adding a link to the order-page 
-(<a class="seekto">20:16</a>).
+Finally we want to show you how you can customize the completion-message, for example by adding a link to the new order-view-page (<a class="seekto">20:16</a>).
 
 1. Go to: Store » Configuration » (/admin/commerce/config/checkout)
 1. Configure "Completion message" and adjust the message
@@ -254,5 +252,4 @@ Finally we want to show you how you can customize the completion message for exa
 ## Summary
 That was quiet the journey but you made it, awesome. That means you are now fit to open up your own online-shop powered by EPRAL platform.
 
-So, we have shown you how to create pages to provide a user access to their orders on the fly as well as customizing 
-important parts of the checkout-process and - of course - the basic shop itself can be created. And all that in just about 20 minutes! Isn't that amazing?
+So, we have shown you how to create pages to provide a user access to their orders on the fly as well as customizing important parts of the checkout-process and - of course - the basic shop itself can be created. And all that in just about 20 minutes! Isn't that amazing?
