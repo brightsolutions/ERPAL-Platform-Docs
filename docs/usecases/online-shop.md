@@ -1,6 +1,7 @@
 In this demo we want to show you how you can create an onlineshop with [commerce store](https://drupalcommerce.org/) on the frontend and ERPAL platform on the backend, without much effort.
+Please be aware that these are only some steps towards creating a ready-to-go-live online-shop. Creating taxes, or syncing customer profiles to CRM contacts for example are not covered in this tutorial.
 
-We also prepared some timestamps, so that will help you retrace your steps though the demo. Keep an eye open for them (<a class="seekto">0:04</a>).
+We also prepared some timestamps, that will help you retrace your steps though the demo. Keep an eye open for them (<a class="seekto">0:04</a>).
 
 Before we start: special thanks to [spleshka](https://www.drupal.org/u/spleshka) for creating the screencast.
 
@@ -17,7 +18,7 @@ mentioned in the video:
 
 
 ## Preparation
-For the online-shop we will need some additional modules that are not shipped with ERPAL plaform, so please download & 
+For the online-shop we will need some additional modules that are not shipped with ERPAL Platform, so please download & 
 enable:
 
 - Modules
@@ -59,7 +60,7 @@ For the start we will add the a new content type that will be used to create the
         1. label: "Product"
         1. machine name (rename to): "field_office_supplies_product"
         1. field type: Product reference
-        1. widget: `inline entity form - single value`
+        1. widget: `inline entity form - single value` or `inline entity form - multiple values`
         1. save
         1. save field settings (no changes here)
         1. check `required field`
@@ -102,7 +103,7 @@ First part: create a view that contains all listed products (<a class="seekto">3
         - Identifier (rename to) "Product"
         - Check "require this relationship"
         - Apply
-    - Fields » Add: `Commerce Product: Add to Cart form`; check `Display a textfield quantity widget on the add to cart form`
+    - Fields » Add: `Commerce Product: Add to Cart form`; check `Display a textfield quantity widget on the add to cart form`; check `Attempt to take settings from line item field widget.`; Select from which order type the line item settings should be taken.
     - Fields `Content: Title` » `Create a label` set to "Product"
     - Displays » Add » Content pane
         - Set Display name to "Shop: all products"
