@@ -58,7 +58,7 @@ So we are good to go and can add the product type to our feature:
 [![featuring product types](../img/development/customize/features_product_types.png)](../img/development/customize/features_product_types.png)
 
 ### The View
-Before we customize our view we can go to Structure » Unlink default configurations and open the 'Views' tab to see that the erpal view is in code and served from the erpal_commerce_ui module.
+Before we customize our view we can go to Structure » Unlink default configurations and open the 'Views' tab to see that the ERPAL view is in code and served from the erpal_commerce_ui module.
 [![unlink defaults in code](../img/development/customize/unlink_defaults_in_code.png)](../img/development/customize/unlink_defaults_in_code.png)
 
 When we want to add the customized view to our feature we realize that it doesn't show up:
@@ -75,7 +75,7 @@ Now the view is in the database and "not" served from a file anymore.
 We can now add our customized view to the feature.
 [![feature with customized view](../img/development/customize/features_showing_customized_view.png)](../img/development/customize/features_showing_customized_view.png)
 
-But we also need to add the unlink defaults settings with strongarm to our feature, so the site we deploy to knows that we serve our view from a different file than the original one.
+But we also need to add the unlink defaults settings with [strongarm](https://www.drupal.org/project/strongarm) to our feature, so the site we deploy to knows that we serve our view from a different file than the original one.
 [![feature unlink defaults](../img/development/customize/feature_unlink_defaults.png)](../img/development/customize/feature_unlink_defaults.png)
  
 After we exported our view we can check on the unlink defaults page what happens.
@@ -90,3 +90,4 @@ We can now revert the view or deploy our feature to another server to see that t
 To export product types you need the [commerce features](https://www.drupal.org/project/commerce_features) module.
 To export customized configuration to a feature that was served from a module you need the [unlink default configurations](https://www.drupal.org/project/unlink_defaults) module.
 After unlinking configurations from their initial module you can export them to your own feature.
+Todo so you need to add the unlink defaults configuration to the feature via [strongarm](https://www.drupal.org/project/strongarm).
