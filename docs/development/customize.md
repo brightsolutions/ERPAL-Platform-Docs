@@ -1,7 +1,7 @@
 Customizing ERPAL Platform is as easy as customizing plain Drupal.
 There are however some things you should know before you start.
 In this guide we want to give you an example of how you add custom products, customize a view provided by ERPAL and how you can store all of this in a feature.
-The process of customizing and exporting of configuration delivered by a module doesn not only apply for ERPAL Platform but for all modules that serve configurations.
+The process of customizing and exporting of configuration delivered by a module does not only apply for ERPAL Platform but for all modules that serve configurations.
 For example line item views served by commerce.
 
 ** TL;DR? ** Go read [the summary](#the-summary) ;-)
