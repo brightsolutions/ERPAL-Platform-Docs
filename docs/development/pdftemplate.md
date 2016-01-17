@@ -1,7 +1,7 @@
 # Prerequisite
 ERPAL Platform generates quotes, orders and invoices for you.
 In general they include all the information needed, but by default they will not match your corporate identity.
-But as flexible as ERPAL is this is easy todo.
+But as flexible as ERPAL is this is easy to do.
 If you want to customize the layout or the design there are enough options to get you to your goal.
 
 In this article we show you how to add custom css and how to add a template to your subtheme.
